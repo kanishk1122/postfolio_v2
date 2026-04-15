@@ -4,7 +4,7 @@ import PageTransition from "./components/PageTransition";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kanishk Soni — Full Stack Developer",
+  title: "Kanishk Soni Portfolio",
   description: "Portfolio of Kanishk Soni — AI-powered SaaS systems, full-stack development, and real-time applications.",
 };
 
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav>
-          <div className="nav-brand">Obsidian</div>
+          <div className="nav-brand">Kanishk Soni</div>
 
           <div className="nav-links">
             <Link href="/projects">Archive</Link>
